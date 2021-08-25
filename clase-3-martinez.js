@@ -9,11 +9,8 @@ while(camino != "izquierda"){
 }
 alert("tomas el camino "+camino+" luego de caminar un rato ves las luces de la ciudad y logras escapar del bosque! ")
 
-for(let i =parseInt(prompt("ingrese un numero"));i<10;i++){
-    alert("Su numero ahora es"+i)
-}
 
 
-for (let i = 0; i<10; i++){
-    console.log(i)
+for(let i =parseInt(prompt("ingrese un numero"));i<=100;i = i+10){
+    alert("Su numero ahora es "+i)
 }
